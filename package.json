@@ -1,0 +1,13 @@
+{
+  "name": "edumorph",
+  "version": "1.0.0",
+  "description": "Edumorph AI Learning Platform",
+  "scripts": {
+    "build": "echo 'Static site, no build needed'",
+    "vercel-build": "echo 'Static site, no build needed'",
+    "start": "echo 'Serving static files'"
+  },
+  "keywords": ["edumorph", "learning", "ai"],
+  "author": "",
+  "license": "ISC"
+}
