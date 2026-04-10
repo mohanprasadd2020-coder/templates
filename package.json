@@ -1,13 +1,10 @@
 {
   "name": "edumorph",
   "version": "1.0.0",
-  "description": "Edumorph AI Learning Platform",
+  "description": "Edumorph AI Learning Platform - Static HTML Site",
+  "private": true,
   "scripts": {
-    "build": "echo 'Static site, no build needed'",
-    "vercel-build": "echo 'Static site, no build needed'",
+    "build": "echo 'No build needed for static site'",
     "start": "echo 'Serving static files'"
-  },
-  "keywords": ["edumorph", "learning", "ai"],
-  "author": "",
-  "license": "ISC"
+  }
 }
