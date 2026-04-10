@@ -1,11 +1,17 @@
 {
+  "public": ".",
   "buildCommand": "",
   "outputDirectory": ".",
-  "public": ".",
+  "cleanUrls": true,
+  "trailingSlash": false,
   "rewrites": [
     {
-      "source": "/:path*",
-      "destination": "/:path*.html"
+      "source": "/",
+      "destination": "/home1.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/$1"
     }
   ]
 }
